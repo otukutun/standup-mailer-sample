@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import MessageUI
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, MFMailComposeViewControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +21,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func startUpMailButton(_ sender: AnyObject) {
+        if MFMailComposeViewController.canSendMail() == false {
+            print("Cannot send Email in this devise.")
+            return
+        }
+    }
 
 }
 
