@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C77F9161DED3FC0005297B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C77F9151DED3FC0005297B7 /* AppDelegate.swift */; };
+		2C77F9181DED3FC0005297B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C77F9171DED3FC0005297B7 /* ViewController.swift */; };
+		2C77F91B1DED3FC0005297B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C77F9191DED3FC0005297B7 /* Main.storyboard */; };
+		2C77F91D1DED3FC0005297B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C77F91C1DED3FC0005297B7 /* Assets.xcassets */; };
+		2C77F9201DED3FC0005297B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C77F91E1DED3FC0005297B7 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C77F9121DED3FC0005297B7 /* standup-mailer-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "standup-mailer-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C77F9151DED3FC0005297B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C77F9171DED3FC0005297B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C77F91A1DED3FC0005297B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C77F91C1DED3FC0005297B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C77F91F1DED3FC0005297B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C77F9211DED3FC0005297B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C77F90F1DED3FC0005297B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C77F9091DED3FC0005297B7 = {
+			isa = PBXGroup;
+			children = (
+				2C77F9141DED3FC0005297B7 /* standup-mailer-sample */,
+				2C77F9131DED3FC0005297B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C77F9131DED3FC0005297B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C77F9121DED3FC0005297B7 /* standup-mailer-sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C77F9141DED3FC0005297B7 /* standup-mailer-sample */ = {
+			isa = PBXGroup;
+			children = (
+				2C77F9151DED3FC0005297B7 /* AppDelegate.swift */,
+				2C77F9171DED3FC0005297B7 /* ViewController.swift */,
+				2C77F9191DED3FC0005297B7 /* Main.storyboard */,
+				2C77F91C1DED3FC0005297B7 /* Assets.xcassets */,
+				2C77F91E1DED3FC0005297B7 /* LaunchScreen.storyboard */,
+				2C77F9211DED3FC0005297B7 /* Info.plist */,
+			);
+			path = "standup-mailer-sample";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C77F9111DED3FC0005297B7 /* standup-mailer-sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C77F9241DED3FC0005297B7 /* Build configuration list for PBXNativeTarget "standup-mailer-sample" */;
+			buildPhases = (
+				2C77F90E1DED3FC0005297B7 /* Sources */,
+				2C77F90F1DED3FC0005297B7 /* Frameworks */,
+				2C77F9101DED3FC0005297B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "standup-mailer-sample";
+			productName = "standup-mailer-sample";
+			productReference = 2C77F9121DED3FC0005297B7 /* standup-mailer-sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C77F90A1DED3FC0005297B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = otukutun;
+				TargetAttributes = {
+					2C77F9111DED3FC0005297B7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2C77F90D1DED3FC0005297B7 /* Build configuration list for PBXProject "standup-mailer-sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C77F9091DED3FC0005297B7;
+			productRefGroup = 2C77F9131DED3FC0005297B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C77F9111DED3FC0005297B7 /* standup-mailer-sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C77F9101DED3FC0005297B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C77F9201DED3FC0005297B7 /* LaunchScreen.storyboard in Resources */,
+				2C77F91D1DED3FC0005297B7 /* Assets.xcassets in Resources */,
+				2C77F91B1DED3FC0005297B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C77F90E1DED3FC0005297B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C77F9181DED3FC0005297B7 /* ViewController.swift in Sources */,
+				2C77F9161DED3FC0005297B7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2C77F9191DED3FC0005297B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C77F91A1DED3FC0005297B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C77F91E1DED3FC0005297B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C77F91F1DED3FC0005297B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C77F9221DED3FC0005297B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C77F9231DED3FC0005297B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C77F9251DED3FC0005297B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "standup-mailer-sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.techacademy.otukutun.standup-mailer-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2C77F9261DED3FC0005297B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "standup-mailer-sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.techacademy.otukutun.standup-mailer-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C77F90D1DED3FC0005297B7 /* Build configuration list for PBXProject "standup-mailer-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C77F9221DED3FC0005297B7 /* Debug */,
+				2C77F9231DED3FC0005297B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C77F9241DED3FC0005297B7 /* Build configuration list for PBXNativeTarget "standup-mailer-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C77F9251DED3FC0005297B7 /* Debug */,
+				2C77F9261DED3FC0005297B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C77F90A1DED3FC0005297B7 /* Project object */;
+}
