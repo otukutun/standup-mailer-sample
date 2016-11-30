@@ -48,5 +48,9 @@ class ViewController: UIViewController, MFMailComposeViewControllerDelegate, SFS
         self.present(mailViewController, animated: true, completion: nil)
     }
 
+    func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
+
+        self.dismiss(animated: true, completion: nil)
+    }
 }
 
